@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url('images/analysis_8.jpg');
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+header p {
+    font-size: 1.5em;
+}
+
+#main_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 150px;
+}
+
+footer {
+    background-image: url('images/analysis_8.jpg');
+    color: white;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+#contact_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contact_info p a {
+    color: white;
+}
+
+#contact_info p a:hover {
+    color: yellow;
+}
+
+#contanct_info p {
+    padding: 25px 0;
+}
+
+#about_me #skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#about_me_img #skills_img {
+    max-width: 50%;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.nav_item:hover {
+    background-color: grey
+}
